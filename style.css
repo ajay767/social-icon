@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+margin-bottom: 50px;
+letter-spacing: 3px;
+color: #f0a500;
+border-bottom: 2px solid #f0a500;
+
+}
+.social-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b28;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-div{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-div{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    transition: all 0.5s ease;
+    color: white;
+}
+.icon-name{
+    font-size: 0px;
+    color: #94aa2a;
+    margin-top: 15px;
+    transition: all 0.5s ease;
+}
+.icon:hover{
+transform: rotate(360deg);
+color: #c70039;
+}
+.icon:hover ~ .icon-name{
+    font-size: 25px;
+}
+.my-logo{
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    transition: all 0.5s ease;
+}
+.my-logo:hover{
+    margin-top: 0;
+    height: 150px;
+    width: 150px;
+}
+.my-head{
+    color: #f3b971c7;
+    letter-spacing: 3px;
+}
